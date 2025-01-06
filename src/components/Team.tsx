@@ -1,8 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Twitter } from 'lucide-react';
-import teamImage from '../images/IMG_8127.jpeg';
-import ansar from 'hbl-website/src/images/IMG_6804.jpeg'
+import teamImage from '../images/1A90ADCA-991B-474F-82D4-636CED5AB167_1_201_a.jpeg';
+import sarahImage from '../images/IMG_6804.jpeg';
+import michaelImage from '../images/IMG_7500.jpeg';
+import emilyImage from '../images/PHOTO-2025-01-06-12-48-23.jpg';
 
 const teamMembers = [
   {
@@ -16,9 +18,9 @@ const teamMembers = [
     }
   },
   {
-    name: 'Sarah Johnson', 
+    name: 'Ansar Hussain', 
     role: 'Technical Director',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150&h=150',
+    image: sarahImage,
     social: {
       instagram: '#',
       linkedin: '#',
@@ -26,9 +28,9 @@ const teamMembers = [
     }
   },
   {
-    name: 'Michael Wong',
+    name: 'Pareekshith',
     role: 'Web3 Expert', 
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150&h=150',
+    image: michaelImage,
     social: {
       twitter: '#',
       linkedin: '#',
@@ -36,9 +38,9 @@ const teamMembers = [
     }
   },
   {
-    name: 'Emily Davis',
+    name: 'Irfan',
     role: 'Community Manager',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=150&h=150',
+    image: emilyImage,
     social: {
       twitter: '#',
       linkedin: '#',
@@ -59,7 +61,7 @@ export const Team = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">Meet Our Team</h2>
+          <h2 className="text-4xl font-bold mb-4">Meet Our Team - Tech Hub</h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             The passionate individuals behind HACK_BEYOND
           </p>
