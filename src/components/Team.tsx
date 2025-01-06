@@ -4,9 +4,9 @@ import { Github, Linkedin, Twitter } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: 'Alex Chen',
+    name: 'Lakshan',
     role: 'Lead Organizer',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150&h=150',
+    image: './images/IMG_8127.jpeg',
     social: {
       twitter: '#',
       linkedin: '#', 

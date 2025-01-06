@@ -88,12 +88,12 @@ export const Hero = () => {
       />
       
       <div className="relative z-10 h-full">
-        <div className="relative h-full flex flex-col items-center justify-center text-center px-4">
+        <div className="relative h-full flex flex-col items-center justify-center text-center px-4 py-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="space-y-8"
+            className="space-y-4 md:space-y-8"
           >
             <motion.div
               initial={{ scale: 0.8 }}
@@ -101,15 +101,15 @@ export const Hero = () => {
               transition={{ duration: 0.5 }}
               className="flex justify-center"
             >
-              <Terminal className="w-20 h-20 text-purple-500" />
+              <Terminal className="w-12 h-12 md:w-20 md:h-20 text-purple-500" />
             </motion.div>
 
-            <div className="space-y-4">
+            <div className="space-y-2 md:space-y-4">
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="text-6xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 animate-gradient"
+                className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 animate-gradient"
               >
                 HACK_BEYOND_LIMITS
               </motion.h1>
@@ -117,7 +117,7 @@ export const Hero = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
-                className="text-3xl md:text-4xl font-bold text-blue-400"
+                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-blue-400"
               >
                 Shape the Future of Innovation
               </motion.p>
@@ -127,7 +127,7 @@ export const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
-              className="max-w-2xl mx-auto text-lg text-gray-300"
+              className="max-w-2xl mx-auto text-base md:text-lg text-gray-300 px-4"
             >
               Join the most innovative hackathon where creativity meets technology.
               24 hours of coding, creation, and breakthrough innovations.
@@ -138,10 +138,10 @@ export const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
             >
-              <button className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg font-bold text-white hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
-                <span className="flex items-center gap-2">
+              <button className="group relative px-6 py-3 md:px-8 md:py-4 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg font-bold text-white hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
+                <span className="flex items-center gap-2 text-sm md:text-base">
                   Register Now
-                  <Rocket className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <Rocket className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform" />
                 </span>
                 <div className="absolute inset-0 bg-white/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity" />
               </button>
