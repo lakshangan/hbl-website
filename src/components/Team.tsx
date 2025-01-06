@@ -6,17 +6,17 @@ const teamMembers = [
   {
     name: 'Alex Chen',
     role: 'Lead Organizer',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200&h=200',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150&h=150',
     social: {
       twitter: '#',
-      linkedin: '#',
+      linkedin: '#', 
       github: '#'
     }
   },
   {
-    name: 'Sarah Johnson',
+    name: 'Sarah Johnson', 
     role: 'Technical Director',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150&h=150',
     social: {
       twitter: '#',
       linkedin: '#',
@@ -25,8 +25,8 @@ const teamMembers = [
   },
   {
     name: 'Michael Wong',
-    role: 'Web3 Expert',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200',
+    role: 'Web3 Expert', 
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150&h=150',
     social: {
       twitter: '#',
       linkedin: '#',
@@ -36,7 +36,7 @@ const teamMembers = [
   {
     name: 'Emily Davis',
     role: 'Community Manager',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=200&h=200',
+    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=150&h=150',
     social: {
       twitter: '#',
       linkedin: '#',

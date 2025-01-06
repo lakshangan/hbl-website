@@ -111,7 +111,7 @@ export const Hero = () => {
                 transition={{ delay: 0.2 }}
                 className="text-6xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 animate-gradient"
               >
-                HACK_BEYOND
+                HACK_BEYOND_LIMITS
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
