@@ -1,12 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import teamImage from '../images/IMG_8127.jpeg';
+import ansar from 'hbl-website/src/images/IMG_6804.jpeg'
 
 const teamMembers = [
   {
-    name: 'Lakshan',
+    name: 'Lakshan G',
     role: 'Lead Organizer',
-    image: './images/IMG_8127.jpeg',
+    image: teamImage,
     social: {
       twitter: '#',
       linkedin: '#', 
@@ -18,7 +20,7 @@ const teamMembers = [
     role: 'Technical Director',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150&h=150',
     social: {
-      twitter: '#',
+      instagram: '#',
       linkedin: '#',
       github: '#'
     }

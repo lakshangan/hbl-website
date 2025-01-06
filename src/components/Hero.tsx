@@ -119,7 +119,7 @@ export const Hero = () => {
                 transition={{ delay: 0.4 }}
                 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-blue-400"
               >
-                Shape the Future of Innovation
+                Go beyond Hack beyond!
               </motion.p>
             </div>
 

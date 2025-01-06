@@ -1,27 +1,27 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Brain, Rocket, Globe } from 'lucide-react';
+import { Code2, Brain, Rocket, Globe, Heart } from 'lucide-react';
 
 const features = [
   {
     icon: Code2,
     title: 'Web3 Innovation',
-    description: 'Build cutting-edge applications using blockchain technology and decentralized systems.'
+    description: 'Create solutions that address real-world challenges using decentralized technologies, focusing on enhancing blockchain scalability, privacy, security, or interoperability.'
   },
   {
     icon: Brain,
     title: 'AI Integration',
-    description: 'Leverage state-of-the-art AI models and machine learning algorithms.'
+    description: 'Develop innovative solutions that leverage artificial intelligence to solve complex real-world problems. Focus on areas like machine learning, data analysis, automation, or AI-driven insights to create impactful and scalable applications.'
   },
   {
-    icon: Globe,
-    title: 'Global Community',
-    description: 'Connect with developers worldwide and build lasting relationships.'
+    icon: Heart,
+    title: 'Healthcare',
+    description: 'Create solutions that harness technology to improve healthcare outcomes. Focus on areas like patient care, health data management, diagnostics, or telemedicine, aiming to enhance accessibility, efficiency, and quality in the healthcare industry.'
   },
   {
     icon: Rocket,
-    title: 'Launch Ready',
-    description: 'Get mentorship and resources to transform your idea into a startup.'
+    title: 'Open Track',
+    description: 'Explore innovative solutions across any domain or industry. This track allows participants to tackle unique challenges of their choice, encouraging creativity and out-of-the-box thinking. Build impactful solutions using technology to address a problem that excites you!'
   }
 ];
 

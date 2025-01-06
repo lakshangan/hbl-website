@@ -25,7 +25,7 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <Terminal className="w-6 h-6 text-purple-500" />
-            <span className="font-bold text-xl">HACK_BEYOND</span>
+            <span className="font-bold text-xl">Tech Hub</span>
           </div>
           
           <nav className="hidden md:flex items-center gap-8">
